@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Certificate Verification</title>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+
+</head>
+
+<body>
+
+<h2>Add Certificate</h2>
+
+<input id="name" placeholder="Student Name"><br><br>
+
+<input id="course" placeholder="Course"><br><br>
+
+<input id="certId" placeholder="Certificate ID"><br><br>
+
+<input id="hash" placeholder="Certificate Hash"><br><br>
+
+<button onclick="addCertificate()">Add Certificate</button>
+
+<hr>
+
+<h2>Verify Certificate</h2>
+
+<input id="verifyId" placeholder="Certificate ID"><br><br>
+
+<button onclick="verifyCertificate()">Verify</button>
+
+<p id="result"></p>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
